@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
@@ -29,11 +28,11 @@ export default function RootLayout({
           </Link>
           <div>
             <h1 className="text-center md:font-bold font-semibold md:text-xl text-xs">
-              TOSHKENT VILOYATI OLMALIQ SHAHAR 8-SONLI BOLALAR MUSIQA VA SAN’AT
+              TOSHKENT VILOYATI OLMALIQ SHAHAR 8-SONLI BOLALAR MUSIQA VA SAN'AT
               MAKTABI
             </h1>
             <p className="text-center md:block hidden font-medium  md:text-base text-xs">
-              Olmaliq shahar Amir Tumur ko‘chasi 51-uy <br /> Tel.: +998
+              Olmaliq shahar Amir Tumur ko'chasi 51-uy <br /> Tel.: +998
               70-614-27-17
             </p>
           </div>
