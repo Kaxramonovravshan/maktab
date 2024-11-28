@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const dm_sans = DM_Sans({ subsets: ["latin"] });
 
@@ -20,9 +21,11 @@ export default function RootLayout({
       <body className={dm_sans.className}>
         <div className="max-w-7xl mx-auto flex justify-between items-center mb-10 md:py-2 p-2">
           <Link href={"/"}>
-            <img
+            <Image
+              width={300}
+              height={500}
               className="md:w-32 w-20"
-              src="https://olmaliqbmsm.uz/img/8_MBSM_Logo.jpg"
+              src={"https://olmaliqbmsm.uz/img/8_MBSM_Logo.jpg"}
               alt=""
             />
           </Link>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Direktor() {
@@ -12,11 +13,14 @@ function Direktor() {
           rasmiy saytiga xush kelibsiz!
         </h3>
         <div className="flex flex-col md:flex-row align-center gap-2">
-          <img
+          <Image
+            width={300}
+            height={500}
             className="md:w-1/5  w-full"
-            src="https://olmaliqbmsm.uz/img/Direktor.jpg"
+            src={"https://olmaliqbmsm.uz/img/Direktor.jpg"}
             alt=""
           />
+
           <p className="my-2 ">
             Bizning maktabimiz 1955-yil 18-mayda tashkil etilgan. Bu paytda
             maktabda uchta o&apos;qituvchi va ikkita musiqa asbobi-fortepiano va
@@ -135,9 +139,11 @@ function Direktor() {
         </h1>
         <div className="flex justify-between items-center">
           <div className="w-1/4">
-            <img
+            <Image
+              width={300}
+              height={500}
               className="w-full"
-              src="https://olmaliqbmsm.uz/img/xodim_ish_yurituvchi2.jpg"
+              src={"https://olmaliqbmsm.uz/img/xodim_ish_yurituvchi2.jpg"}
               alt=""
             />
             <p className="text-center">Ish yurituvchi</p>
@@ -145,8 +151,11 @@ function Direktor() {
             <p className="text-center">Aziza Nematilla qizi</p>
           </div>
           <div className="w-1/4">
-            <img
-              src="https://olmaliqbmsm.uz/img/xodim_kutubxonachi.jpg"
+            <Image
+              width={300}
+              height={500}
+              className="w-full"
+              src={"https://olmaliqbmsm.uz/img/xodim_kutubxonachi.jpg"}
               alt=""
             />
             <p className="text-center">Kutubxonachi</p>
@@ -154,7 +163,13 @@ function Direktor() {
             <p className="text-center">Xusnora Sobirovna</p>
           </div>
           <div className="w-1/4">
-            <img src="https://olmaliqbmsm.uz/img/xodim_liboschi.jpg" alt="" />
+            <Image
+              width={300}
+              height={500}
+              className="w-full"
+              src={"https://olmaliqbmsm.uz/img/xodim_liboschi.jpg"}
+              alt=""
+            />
             <p className="text-center">Ish yurituvchi</p>
             <p className="text-center font-bold">Urmanova</p>
             <p className="text-center">Aziza Nematilla qizi</p>

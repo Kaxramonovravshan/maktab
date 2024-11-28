@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import Link from "next/link";
 
 export default function Home() {
@@ -8,37 +7,47 @@ export default function Home() {
       <div className="w-full">
         <div className="max-w-7xl mx-auto flex gap-3 p-2 items-center md:mb-20 mb-10">
           <div className="w-1/5">
-            <img
+            <Image
+              width={300}
+              height={500}
               className="w-full rounded-lg"
-              src="https://olmaliqbmsm.uz/img/T_9_may_2.jpg"
+              src={"https://olmaliqbmsm.uz/img/T_9_may_2.jpg"}
               alt=""
             />
           </div>
           <div className="w-1/5">
-            <img
+            <Image
+              width={300}
+              height={500}
               className="w-full rounded-lg"
-              src="https://olmaliqbmsm.uz/img/T_taqdimot_11.jpg"
+              src={"https://olmaliqbmsm.uz/img/T_taqdimot_11.jpg"}
               alt=""
             />
           </div>
           <div className="w-1/5">
-            <img
+            <Image
+              width={300}
+              height={500}
               className="w-full rounded-lg"
-              src="https://olmaliqbmsm.uz/img/T_8_mart_1.jpg"
+              src={"https://olmaliqbmsm.uz/img/T_8_mart_1.jpg"}
               alt=""
             />
           </div>
           <div className="w-1/5">
-            <img
+            <Image
+              width={300}
+              height={500}
               className="w-full rounded-lg"
-              src="https://olmaliqbmsm.uz/img/T_2HK_5.jpg"
+              src={"https://olmaliqbmsm.uz/img/T_2HK_5.jpg"}
               alt=""
             />
           </div>
           <div className="w-1/5">
-            <img
+            <Image
+              width={300}
+              height={500}
               className="w-full rounded-lg"
-              src="https://olmaliqbmsm.uz/img/T_2HK_6.jpg"
+              src={"https://olmaliqbmsm.uz/img/T_2HK_6.jpg"}
               alt=""
             />
           </div>
@@ -122,9 +131,11 @@ export default function Home() {
           </div>
           <div className="md:w-3/4 w-full p-2">
             <div className="flex flex-col md:flex-row align-center  gap-3 mb-5">
-              <img
-                className="md:w-56 w-full"
-                src="https://olmaliqbmsm.uz/img/Tadbirlar/56_1.jpg"
+              <Image
+                width={300}
+                height={500}
+                className="md:w-56 w-full rounded-lg"
+                src={"https://olmaliqbmsm.uz/img/Tadbirlar/56_1.jpg"}
                 alt=""
               />
               <div>
@@ -133,13 +144,14 @@ export default function Home() {
                 </h1>
                 <p className="font-normal mb-4 md:text-start text-center">
                   Joriy yilning 23-25-avgust kunlari Parkent tumaning Zarkent
-                  qishlog&apos;ida uzum sayli festivali bo&apos;lib o&apos;tdi. Festivalni
-                  o&apos;tkazishdan ko&apos;zlangan asosiy maqsad, nafaqat yurtimiz,
-                  balki, xorijga turizm salohiyatini keng namoyish etish, milliy
-                  mahsulotimiz brendini jahon bozorida munosib o&apos;ringa ega
-                  bo&apos;lishini ta&apos;minlash, qadimiy uzumchilik va vinochilik
-                  tajribasi hamda bog&apos;dorchilik mahsulotlarining noyob tur va
-                  navlarini keng ommalashtirish bo&apos;ldi.
+                  qishlog&apos;ida uzum sayli festivali bo&apos;lib o&apos;tdi.
+                  Festivalni o&apos;tkazishdan ko&apos;zlangan asosiy maqsad,
+                  nafaqat yurtimiz, balki, xorijga turizm salohiyatini keng
+                  namoyish etish, milliy mahsulotimiz brendini jahon bozorida
+                  munosib o&apos;ringa ega bo&apos;lishini ta&apos;minlash,
+                  qadimiy uzumchilik va vinochilik tajribasi hamda
+                  bog&apos;dorchilik mahsulotlarining noyob tur va navlarini
+                  keng ommalashtirish bo&apos;ldi.
                 </p>
                 <div className="flex gap-7 items-center md:justify-start justify-center ">
                   <p>25.08.2024</p>
@@ -148,9 +160,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col md:flex-row align-center  gap-3 mb-5">
-              <img
-                className="md:w-56 w-full"
-                src="https://olmaliqbmsm.uz/img/Tadbirlar/56_1.jpg"
+              <Image
+                width={300}
+                height={500}
+                className="md:w-56 w-full rounded-lg"
+                src={"https://olmaliqbmsm.uz/img/Tadbirlar/56_1.jpg"}
                 alt=""
               />
               <div>
@@ -159,13 +173,14 @@ export default function Home() {
                 </h1>
                 <p className="font-normal mb-4 md:text-start text-center">
                   Joriy yilning 23-25-avgust kunlari Parkent tumaning Zarkent
-                  qishlog&apos;ida uzum sayli festivali bo&apos;lib o&apos;tdi. Festivalni
-                  o&apos;tkazishdan ko&apos;zlangan asosiy maqsad, nafaqat yurtimiz,
-                  balki, xorijga turizm salohiyatini keng namoyish etish, milliy
-                  mahsulotimiz brendini jahon bozorida munosib o&apos;ringa ega
-                  bo&apos;lishini ta&apos;minlash, qadimiy uzumchilik va vinochilik
-                  tajribasi hamda bog&apos;dorchilik mahsulotlarining noyob tur va
-                  navlarini keng ommalashtirish bo&apos;ldi.
+                  qishlog&apos;ida uzum sayli festivali bo&apos;lib o&apos;tdi.
+                  Festivalni o&apos;tkazishdan ko&apos;zlangan asosiy maqsad,
+                  nafaqat yurtimiz, balki, xorijga turizm salohiyatini keng
+                  namoyish etish, milliy mahsulotimiz brendini jahon bozorida
+                  munosib o&apos;ringa ega bo&apos;lishini ta&apos;minlash,
+                  qadimiy uzumchilik va vinochilik tajribasi hamda
+                  bog&apos;dorchilik mahsulotlarining noyob tur va navlarini
+                  keng ommalashtirish bo&apos;ldi.
                 </p>
                 <div className="flex gap-7 items-center md:justify-start justify-center ">
                   <p>25.08.2024</p>
@@ -174,9 +189,11 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col md:flex-row align-center  gap-3 mb-5">
-              <img
-                className="md:w-56 w-full"
-                src="https://olmaliqbmsm.uz/img/Tadbirlar/56_1.jpg"
+              <Image
+                width={300}
+                height={500}
+                className="md:w-56 w-full rounded-lg"
+                src={"https://olmaliqbmsm.uz/img/Tadbirlar/56_1.jpg"}
                 alt=""
               />
               <div>
@@ -185,13 +202,14 @@ export default function Home() {
                 </h1>
                 <p className="font-normal mb-4 md:text-start text-center">
                   Joriy yilning 23-25-avgust kunlari Parkent tumaning Zarkent
-                  qishlog&apos;ida uzum sayli festivali bo&apos;lib o&apos;tdi. Festivalni
-                  o&apos;tkazishdan ko&apos;zlangan asosiy maqsad, nafaqat yurtimiz,
-                  balki, xorijga turizm salohiyatini keng namoyish etish, milliy
-                  mahsulotimiz brendini jahon bozorida munosib o&apos;ringa ega
-                  bo&apos;lishini ta&apos;minlash, qadimiy uzumchilik va vinochilik
-                  tajribasi hamda bog&apos;dorchilik mahsulotlarining noyob tur va
-                  navlarini keng ommalashtirish bo&apos;ldi.
+                  qishlog&apos;ida uzum sayli festivali bo&apos;lib o&apos;tdi.
+                  Festivalni o&apos;tkazishdan ko&apos;zlangan asosiy maqsad,
+                  nafaqat yurtimiz, balki, xorijga turizm salohiyatini keng
+                  namoyish etish, milliy mahsulotimiz brendini jahon bozorida
+                  munosib o&apos;ringa ega bo&apos;lishini ta&apos;minlash,
+                  qadimiy uzumchilik va vinochilik tajribasi hamda
+                  bog&apos;dorchilik mahsulotlarining noyob tur va navlarini
+                  keng ommalashtirish bo&apos;ldi.
                 </p>
                 <div className="flex gap-7 items-center md:justify-start justify-center ">
                   <p>25.08.2024</p>
