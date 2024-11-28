@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={dm_sans.className}>
-        <div className="max-w-7xl mx-auto flex justify-between items-center md:mb-20 mb-10 md:py-2 p-2">
+        <div className="max-w-7xl mx-auto flex justify-between items-center mb-10 md:py-2 p-2">
           <Link href={"/"}>
             <img
               className="md:w-32 w-20"
@@ -28,11 +28,11 @@ export default function RootLayout({
           </Link>
           <div>
             <h1 className="text-center md:font-bold font-semibold md:text-xl text-xs">
-              TOSHKENT VILOYATI OLMALIQ SHAHAR 8-SONLI BOLALAR MUSIQA VA SAN'AT
-              MAKTABI
+              TOSHKENT VILOYATI OLMALIQ SHAHAR 8-SONLI BOLALAR MUSIQA VA
+              SAN&apos;AT MAKTABI
             </h1>
             <p className="text-center md:block hidden font-medium  md:text-base text-xs">
-              Olmaliq shahar Amir Tumur ko'chasi 51-uy <br /> Tel.: +998
+              Olmaliq shahar Amir Tumur ko&apos;chasi 51-uy <br /> Tel.: +998
               70-614-27-17
             </p>
           </div>

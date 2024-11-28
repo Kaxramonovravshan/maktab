@@ -56,19 +56,19 @@ export default function Home() {
                 href={""}
                 className="font-medium block mb-1 rounded-lg hover:cursor-pointer hover:text-white hover:bg-blue-700 p-2"
               >
-                Maktab ko'rsatkichlari
+                Maktab ko&apos;rsatkichlari
               </Link>
               <Link
                 href={""}
                 className="font-medium block mb-1 rounded-lg hover:cursor-pointer hover:text-white hover:bg-blue-700 p-2"
               >
-                O'quvchilar uchun
+                O&apos;quvchilar uchun
               </Link>
               <Link
                 href={""}
                 className="font-medium block mb-1 rounded-lg hover:cursor-pointer hover:text-white hover:bg-blue-700 p-2"
               >
-                O'quvchilar xavfsizligi
+                O&apos;quvchilar xavfsizligi
               </Link>
               <Link
                 href={""}
@@ -104,13 +104,13 @@ export default function Home() {
                 href={""}
                 className="font-medium block mb-1 rounded-lg hover:cursor-pointer hover:text-white hover:bg-blue-700 p-2"
               >
-                Bo'sh ish o'rinlari
+                Bo&apos;sh ish o&apos;rinlari
               </Link>
               <Link
                 href={""}
                 className="font-medium block mb-1 rounded-lg hover:cursor-pointer hover:text-white hover:bg-blue-700 p-2"
               >
-                Ma'naviyat va ma'rifat
+                Ma&apos;naviyat va ma&apos;rifat
               </Link>
               <Link
                 href={""}
@@ -129,17 +129,17 @@ export default function Home() {
               />
               <div>
                 <h1 className="text-center text-blue-700 font-bold md:text-3xl text-xl mb-2">
-                  Zarkentda uzum sayli bo'lib o'tdi
+                  Zarkentda uzum sayli bo&apos;lib o&apos;tdi
                 </h1>
                 <p className="font-normal mb-4 md:text-start text-center">
                   Joriy yilning 23-25-avgust kunlari Parkent tumaning Zarkent
-                  qishlog'ida uzum sayli festivali bo'lib o'tdi. Festivalni
-                  o'tkazishdan ko'zlangan asosiy maqsad, nafaqat yurtimiz,
+                  qishlog&apos;ida uzum sayli festivali bo&apos;lib o&apos;tdi. Festivalni
+                  o&apos;tkazishdan ko&apos;zlangan asosiy maqsad, nafaqat yurtimiz,
                   balki, xorijga turizm salohiyatini keng namoyish etish, milliy
-                  mahsulotimiz brendini jahon bozorida munosib o'ringa ega
-                  bo'lishini ta'minlash, qadimiy uzumchilik va vinochilik
-                  tajribasi hamda bog'dorchilik mahsulotlarining noyob tur va
-                  navlarini keng ommalashtirish bo'ldi.
+                  mahsulotimiz brendini jahon bozorida munosib o&apos;ringa ega
+                  bo&apos;lishini ta&apos;minlash, qadimiy uzumchilik va vinochilik
+                  tajribasi hamda bog&apos;dorchilik mahsulotlarining noyob tur va
+                  navlarini keng ommalashtirish bo&apos;ldi.
                 </p>
                 <div className="flex gap-7 items-center md:justify-start justify-center ">
                   <p>25.08.2024</p>
@@ -155,17 +155,17 @@ export default function Home() {
               />
               <div>
                 <h1 className="text-center text-blue-700 font-bold md:text-3xl text-xl mb-2">
-                  Zarkentda uzum sayli bo'lib o'tdi
+                  Zarkentda uzum sayli bo&apos;lib o&apos;tdi
                 </h1>
                 <p className="font-normal mb-4 md:text-start text-center">
                   Joriy yilning 23-25-avgust kunlari Parkent tumaning Zarkent
-                  qishlog'ida uzum sayli festivali bo'lib o'tdi. Festivalni
-                  o'tkazishdan ko'zlangan asosiy maqsad, nafaqat yurtimiz,
+                  qishlog&apos;ida uzum sayli festivali bo&apos;lib o&apos;tdi. Festivalni
+                  o&apos;tkazishdan ko&apos;zlangan asosiy maqsad, nafaqat yurtimiz,
                   balki, xorijga turizm salohiyatini keng namoyish etish, milliy
-                  mahsulotimiz brendini jahon bozorida munosib o'ringa ega
-                  bo'lishini ta'minlash, qadimiy uzumchilik va vinochilik
-                  tajribasi hamda bog'dorchilik mahsulotlarining noyob tur va
-                  navlarini keng ommalashtirish bo'ldi.
+                  mahsulotimiz brendini jahon bozorida munosib o&apos;ringa ega
+                  bo&apos;lishini ta&apos;minlash, qadimiy uzumchilik va vinochilik
+                  tajribasi hamda bog&apos;dorchilik mahsulotlarining noyob tur va
+                  navlarini keng ommalashtirish bo&apos;ldi.
                 </p>
                 <div className="flex gap-7 items-center md:justify-start justify-center ">
                   <p>25.08.2024</p>
@@ -181,17 +181,17 @@ export default function Home() {
               />
               <div>
                 <h1 className="text-center text-blue-700 font-bold md:text-3xl text-xl mb-2">
-                  Zarkentda uzum sayli bo'lib o'tdi
+                  Zarkentda uzum sayli bo&apos;lib o&apos;tdi
                 </h1>
                 <p className="font-normal mb-4 md:text-start text-center">
                   Joriy yilning 23-25-avgust kunlari Parkent tumaning Zarkent
-                  qishlog'ida uzum sayli festivali bo'lib o'tdi. Festivalni
-                  o'tkazishdan ko'zlangan asosiy maqsad, nafaqat yurtimiz,
+                  qishlog&apos;ida uzum sayli festivali bo&apos;lib o&apos;tdi. Festivalni
+                  o&apos;tkazishdan ko&apos;zlangan asosiy maqsad, nafaqat yurtimiz,
                   balki, xorijga turizm salohiyatini keng namoyish etish, milliy
-                  mahsulotimiz brendini jahon bozorida munosib o'ringa ega
-                  bo'lishini ta'minlash, qadimiy uzumchilik va vinochilik
-                  tajribasi hamda bog'dorchilik mahsulotlarining noyob tur va
-                  navlarini keng ommalashtirish bo'ldi.
+                  mahsulotimiz brendini jahon bozorida munosib o&apos;ringa ega
+                  bo&apos;lishini ta&apos;minlash, qadimiy uzumchilik va vinochilik
+                  tajribasi hamda bog&apos;dorchilik mahsulotlarining noyob tur va
+                  navlarini keng ommalashtirish bo&apos;ldi.
                 </p>
                 <div className="flex gap-7 items-center md:justify-start justify-center ">
                   <p>25.08.2024</p>
